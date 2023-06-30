@@ -1,0 +1,722 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="tiny_network"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\example\;CMake Files\src\;CMake Files\src\http\;CMake Files\src\logger\;CMake Files\src\logger\test\;CMake Files\src\memory\;CMake Files\src\memory\test\;CMake Files\src\mysql\;CMake Files\src\mysql\test\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/lzy/A-Tiny-Net/cmake-build-debug-"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tiny_network">
+				<Option output="/home/lzy/A-Tiny-Net/lib/libtiny_network.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lzy/A-Tiny-Net/cmake-build-debug-"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/lzy/A-Tiny-Net/src/base"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/net"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/net/poller"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/net/http"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/timer"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/logger"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/memory"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/mysql"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/Makefile&quot;  VERBOSE=1 tiny_network"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tiny_network/fast">
+				<Option output="/home/lzy/A-Tiny-Net/lib/libtiny_network.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lzy/A-Tiny-Net/cmake-build-debug-"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/lzy/A-Tiny-Net/src/base"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/net"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/net/poller"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/net/http"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/timer"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/logger"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/memory"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/mysql"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/Makefile&quot;  VERBOSE=1 tiny_network/fast"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/lzy/A-Tiny-Net/cmake-build-debug-"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/lzy/A-Tiny-Net/cmake-build-debug-"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/lzy/A-Tiny-Net/cmake-build-debug-"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/lzy/A-Tiny-Net/cmake-build-debug-"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/lzy/A-Tiny-Net/cmake-build-debug-"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/lzy/A-Tiny-Net/cmake-build-debug-"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="echoServer">
+				<Option output="/home/lzy/A-Tiny-Net/example/echoServer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lzy/A-Tiny-Net/example"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/lzy/A-Tiny-Net/src/base"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/net"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/net/poller"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/net/http"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/timer"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/logger"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/memory"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/mysql"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/example/Makefile&quot;  VERBOSE=1 echoServer"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/example/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/example/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/example/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="echoServer/fast">
+				<Option output="/home/lzy/A-Tiny-Net/example/echoServer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lzy/A-Tiny-Net/example"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/lzy/A-Tiny-Net/src/base"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/net"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/net/poller"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/net/http"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/timer"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/logger"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/memory"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/mysql"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/example/Makefile&quot;  VERBOSE=1 echoServer/fast"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/example/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/example/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/example/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="echoServerAsync">
+				<Option output="/home/lzy/A-Tiny-Net/example/echoServerAsync" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lzy/A-Tiny-Net/example"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/lzy/A-Tiny-Net/src/base"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/net"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/net/poller"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/net/http"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/timer"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/logger"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/memory"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/mysql"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/example/Makefile&quot;  VERBOSE=1 echoServerAsync"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/example/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/example/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/example/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="echoServerAsync/fast">
+				<Option output="/home/lzy/A-Tiny-Net/example/echoServerAsync" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lzy/A-Tiny-Net/example"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/lzy/A-Tiny-Net/src/base"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/net"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/net/poller"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/net/http"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/timer"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/logger"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/memory"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/mysql"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/example/Makefile&quot;  VERBOSE=1 echoServerAsync/fast"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/example/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/example/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/example/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HttpServer">
+				<Option output="/home/lzy/A-Tiny-Net/src/http/HttpServer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lzy/A-Tiny-Net/src/http"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/lzy/A-Tiny-Net/src/base"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/net"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/net/poller"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/net/http"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/timer"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/logger"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/memory"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/mysql"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/src/http/Makefile&quot;  VERBOSE=1 HttpServer"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/src/http/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/src/http/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/src/http/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HttpServer/fast">
+				<Option output="/home/lzy/A-Tiny-Net/src/http/HttpServer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lzy/A-Tiny-Net/src/http"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/lzy/A-Tiny-Net/src/base"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/net"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/net/poller"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/net/http"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/timer"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/logger"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/memory"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/mysql"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/src/http/Makefile&quot;  VERBOSE=1 HttpServer/fast"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/src/http/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/src/http/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/src/http/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AsyncLoggingTest">
+				<Option output="/home/lzy/A-Tiny-Net/src/logger/test/AsyncLoggingTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lzy/A-Tiny-Net/src/logger/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/lzy/A-Tiny-Net/src/base"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/net"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/net/poller"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/net/http"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/timer"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/logger"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/memory"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/mysql"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/src/logger/test/Makefile&quot;  VERBOSE=1 AsyncLoggingTest"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/src/logger/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/src/logger/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/src/logger/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AsyncLoggingTest/fast">
+				<Option output="/home/lzy/A-Tiny-Net/src/logger/test/AsyncLoggingTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lzy/A-Tiny-Net/src/logger/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/lzy/A-Tiny-Net/src/base"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/net"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/net/poller"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/net/http"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/timer"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/logger"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/memory"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/mysql"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/src/logger/test/Makefile&quot;  VERBOSE=1 AsyncLoggingTest/fast"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/src/logger/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/src/logger/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/src/logger/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MemoryPoolTest">
+				<Option output="/home/lzy/A-Tiny-Net/src/memory/test/MemoryPoolTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lzy/A-Tiny-Net/src/memory/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/lzy/A-Tiny-Net/src/base"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/net"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/net/poller"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/net/http"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/timer"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/logger"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/memory"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/mysql"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/src/memory/test/Makefile&quot;  VERBOSE=1 MemoryPoolTest"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/src/memory/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/src/memory/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/src/memory/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MemoryPoolTest/fast">
+				<Option output="/home/lzy/A-Tiny-Net/src/memory/test/MemoryPoolTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lzy/A-Tiny-Net/src/memory/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/lzy/A-Tiny-Net/src/base"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/net"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/net/poller"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/net/http"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/timer"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/logger"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/memory"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/mysql"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/src/memory/test/Makefile&quot;  VERBOSE=1 MemoryPoolTest/fast"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/src/memory/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/src/memory/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/src/memory/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MysqlPoolTest">
+				<Option output="/home/lzy/A-Tiny-Net/src/mysql/test/MysqlPoolTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lzy/A-Tiny-Net/src/mysql/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/lzy/A-Tiny-Net/src/base"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/net"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/net/poller"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/net/http"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/timer"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/logger"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/memory"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/mysql"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/src/mysql/test/Makefile&quot;  VERBOSE=1 MysqlPoolTest"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/src/mysql/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/src/mysql/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/src/mysql/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MysqlPoolTest/fast">
+				<Option output="/home/lzy/A-Tiny-Net/src/mysql/test/MysqlPoolTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lzy/A-Tiny-Net/src/mysql/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/lzy/A-Tiny-Net/src/base"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/net"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/net/poller"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/net/http"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/timer"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/logger"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/memory"/>
+					<Add directory="/home/lzy/A-Tiny-Net/src/mysql"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/src/mysql/test/Makefile&quot;  VERBOSE=1 MysqlPoolTest/fast"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/src/mysql/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/src/mysql/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/lzy/A-Tiny-Net/cmake-build-debug-/src/mysql/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/lzy/A-Tiny-Net/example/echoServer.cc">
+			<Option target="echoServer"/>
+		</Unit>
+		<Unit filename="/home/lzy/A-Tiny-Net/example/echoServerAsync.cc">
+			<Option target="echoServerAsync"/>
+		</Unit>
+		<Unit filename="/home/lzy/A-Tiny-Net/src/base/CurrentThread.cc">
+			<Option target="tiny_network"/>
+		</Unit>
+		<Unit filename="/home/lzy/A-Tiny-Net/src/base/CurrentThread.h">
+			<Option target="tiny_network"/>
+		</Unit>
+		<Unit filename="/home/lzy/A-Tiny-Net/src/base/Thread.cc">
+			<Option target="tiny_network"/>
+		</Unit>
+		<Unit filename="/home/lzy/A-Tiny-Net/src/base/Thread.h">
+			<Option target="tiny_network"/>
+		</Unit>
+		<Unit filename="/home/lzy/A-Tiny-Net/src/base/ThreadPool.cc">
+			<Option target="tiny_network"/>
+		</Unit>
+		<Unit filename="/home/lzy/A-Tiny-Net/src/base/ThreadPool.h">
+			<Option target="tiny_network"/>
+		</Unit>
+		<Unit filename="/home/lzy/A-Tiny-Net/src/base/Timestamp.cc">
+			<Option target="tiny_network"/>
+		</Unit>
+		<Unit filename="/home/lzy/A-Tiny-Net/src/base/Timestamp.h">
+			<Option target="tiny_network"/>
+		</Unit>
+		<Unit filename="/home/lzy/A-Tiny-Net/src/http/HttpContext.cc">
+			<Option target="tiny_network"/>
+			<Option target="HttpServer"/>
+		</Unit>
+		<Unit filename="/home/lzy/A-Tiny-Net/src/http/HttpContext.h">
+			<Option target="tiny_network"/>
+			<Option target="HttpServer"/>
+		</Unit>
+		<Unit filename="/home/lzy/A-Tiny-Net/src/http/HttpResponse.cc">
+			<Option target="tiny_network"/>
+			<Option target="HttpServer"/>
+		</Unit>
+		<Unit filename="/home/lzy/A-Tiny-Net/src/http/HttpResponse.h">
+			<Option target="tiny_network"/>
+			<Option target="HttpServer"/>
+		</Unit>
+		<Unit filename="/home/lzy/A-Tiny-Net/src/http/HttpServer.cc">
+			<Option target="tiny_network"/>
+			<Option target="HttpServer"/>
+		</Unit>
+		<Unit filename="/home/lzy/A-Tiny-Net/src/http/HttpServer.h">
+			<Option target="tiny_network"/>
+			<Option target="HttpServer"/>
+		</Unit>
+		<Unit filename="/home/lzy/A-Tiny-Net/src/http/main.cc">
+			<Option target="tiny_network"/>
+			<Option target="HttpServer"/>
+		</Unit>
+		<Unit filename="/home/lzy/A-Tiny-Net/src/logger/AsyncLogging.cc">
+			<Option target="tiny_network"/>
+		</Unit>
+		<Unit filename="/home/lzy/A-Tiny-Net/src/logger/AsyncLogging.h">
+			<Option target="tiny_network"/>
+		</Unit>
+		<Unit filename="/home/lzy/A-Tiny-Net/src/logger/FileUtil.cc">
+			<Option target="tiny_network"/>
+		</Unit>
+		<Unit filename="/home/lzy/A-Tiny-Net/src/logger/FileUtil.h">
+			<Option target="tiny_network"/>
+		</Unit>
+		<Unit filename="/home/lzy/A-Tiny-Net/src/logger/LogFile.cc">
+			<Option target="tiny_network"/>
+		</Unit>
+		<Unit filename="/home/lzy/A-Tiny-Net/src/logger/LogFile.h">
+			<Option target="tiny_network"/>
+		</Unit>
+		<Unit filename="/home/lzy/A-Tiny-Net/src/logger/LogStream.cc">
+			<Option target="tiny_network"/>
+		</Unit>
+		<Unit filename="/home/lzy/A-Tiny-Net/src/logger/LogStream.h">
+			<Option target="tiny_network"/>
+		</Unit>
+		<Unit filename="/home/lzy/A-Tiny-Net/src/logger/Logging.cc">
+			<Option target="tiny_network"/>
+		</Unit>
+		<Unit filename="/home/lzy/A-Tiny-Net/src/logger/Logging.h">
+			<Option target="tiny_network"/>
+		</Unit>
+		<Unit filename="/home/lzy/A-Tiny-Net/src/logger/test/AsyncLoggingTest.cc">
+			<Option target="AsyncLoggingTest"/>
+		</Unit>
+		<Unit filename="/home/lzy/A-Tiny-Net/src/memory/MemoryPool.cc">
+			<Option target="tiny_network"/>
+		</Unit>
+		<Unit filename="/home/lzy/A-Tiny-Net/src/memory/MemoryPool.h">
+			<Option target="tiny_network"/>
+		</Unit>
+		<Unit filename="/home/lzy/A-Tiny-Net/src/memory/test/MemoryPoolTest.cc">
+			<Option target="MemoryPoolTest"/>
+		</Unit>
+		<Unit filename="/home/lzy/A-Tiny-Net/src/mysql/ConnectionPool.cc">
+			<Option target="tiny_network"/>
+		</Unit>
+		<Unit filename="/home/lzy/A-Tiny-Net/src/mysql/ConnectionPool.h">
+			<Option target="tiny_network"/>
+		</Unit>
+		<Unit filename="/home/lzy/A-Tiny-Net/src/mysql/MysqlConn.cc">
+			<Option target="tiny_network"/>
+		</Unit>
+		<Unit filename="/home/lzy/A-Tiny-Net/src/mysql/MysqlConn.h">
+			<Option target="tiny_network"/>
+		</Unit>
+		<Unit filename="/home/lzy/A-Tiny-Net/src/mysql/test/MysqlPoolTest.cc">
+			<Option target="MysqlPoolTest"/>
+		</Unit>
+		<Unit filename="/home/lzy/A-Tiny-Net/src/net/Acceptor.cc">
+			<Option target="tiny_network"/>
+		</Unit>
+		<Unit filename="/home/lzy/A-Tiny-Net/src/net/Acceptor.h">
+			<Option target="tiny_network"/>
+		</Unit>
+		<Unit filename="/home/lzy/A-Tiny-Net/src/net/Buffer.cc">
+			<Option target="tiny_network"/>
+		</Unit>
+		<Unit filename="/home/lzy/A-Tiny-Net/src/net/Buffer.h">
+			<Option target="tiny_network"/>
+		</Unit>
+		<Unit filename="/home/lzy/A-Tiny-Net/src/net/Channel.cc">
+			<Option target="tiny_network"/>
+		</Unit>
+		<Unit filename="/home/lzy/A-Tiny-Net/src/net/Channel.h">
+			<Option target="tiny_network"/>
+		</Unit>
+		<Unit filename="/home/lzy/A-Tiny-Net/src/net/EventLoop.cc">
+			<Option target="tiny_network"/>
+		</Unit>
+		<Unit filename="/home/lzy/A-Tiny-Net/src/net/EventLoop.h">
+			<Option target="tiny_network"/>
+		</Unit>
+		<Unit filename="/home/lzy/A-Tiny-Net/src/net/EventLoopThread.cc">
+			<Option target="tiny_network"/>
+		</Unit>
+		<Unit filename="/home/lzy/A-Tiny-Net/src/net/EventLoopThread.h">
+			<Option target="tiny_network"/>
+		</Unit>
+		<Unit filename="/home/lzy/A-Tiny-Net/src/net/EventLoopThreadPool.cc">
+			<Option target="tiny_network"/>
+		</Unit>
+		<Unit filename="/home/lzy/A-Tiny-Net/src/net/EventLoopThreadPool.h">
+			<Option target="tiny_network"/>
+		</Unit>
+		<Unit filename="/home/lzy/A-Tiny-Net/src/net/InetAddress.cc">
+			<Option target="tiny_network"/>
+		</Unit>
+		<Unit filename="/home/lzy/A-Tiny-Net/src/net/InetAddress.h">
+			<Option target="tiny_network"/>
+		</Unit>
+		<Unit filename="/home/lzy/A-Tiny-Net/src/net/Socket.cc">
+			<Option target="tiny_network"/>
+		</Unit>
+		<Unit filename="/home/lzy/A-Tiny-Net/src/net/Socket.h">
+			<Option target="tiny_network"/>
+		</Unit>
+		<Unit filename="/home/lzy/A-Tiny-Net/src/net/TcpConnection.cc">
+			<Option target="tiny_network"/>
+		</Unit>
+		<Unit filename="/home/lzy/A-Tiny-Net/src/net/TcpConnection.h">
+			<Option target="tiny_network"/>
+		</Unit>
+		<Unit filename="/home/lzy/A-Tiny-Net/src/net/TcpServer.cc">
+			<Option target="tiny_network"/>
+		</Unit>
+		<Unit filename="/home/lzy/A-Tiny-Net/src/net/TcpServer.h">
+			<Option target="tiny_network"/>
+		</Unit>
+		<Unit filename="/home/lzy/A-Tiny-Net/src/net/poller/DefaultPoller.cc">
+			<Option target="tiny_network"/>
+		</Unit>
+		<Unit filename="/home/lzy/A-Tiny-Net/src/net/poller/EPollPoller.cc">
+			<Option target="tiny_network"/>
+		</Unit>
+		<Unit filename="/home/lzy/A-Tiny-Net/src/net/poller/EPollPoller.h">
+			<Option target="tiny_network"/>
+		</Unit>
+		<Unit filename="/home/lzy/A-Tiny-Net/src/net/poller/Poller.cc">
+			<Option target="tiny_network"/>
+		</Unit>
+		<Unit filename="/home/lzy/A-Tiny-Net/src/net/poller/Poller.h">
+			<Option target="tiny_network"/>
+		</Unit>
+		<Unit filename="/home/lzy/A-Tiny-Net/src/timer/Timer.cc">
+			<Option target="tiny_network"/>
+		</Unit>
+		<Unit filename="/home/lzy/A-Tiny-Net/src/timer/Timer.h">
+			<Option target="tiny_network"/>
+		</Unit>
+		<Unit filename="/home/lzy/A-Tiny-Net/src/timer/TimerQueue.cc">
+			<Option target="tiny_network"/>
+		</Unit>
+		<Unit filename="/home/lzy/A-Tiny-Net/src/timer/TimerQueue.h">
+			<Option target="tiny_network"/>
+		</Unit>
+		<Unit filename="/home/lzy/A-Tiny-Net/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/lzy/A-Tiny-Net/example/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\example\"/>
+		</Unit>
+		<Unit filename="/home/lzy/A-Tiny-Net/src/http/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\http\"/>
+		</Unit>
+		<Unit filename="/home/lzy/A-Tiny-Net/src/logger/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\logger\test\"/>
+		</Unit>
+		<Unit filename="/home/lzy/A-Tiny-Net/src/memory/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\memory\test\"/>
+		</Unit>
+		<Unit filename="/home/lzy/A-Tiny-Net/src/mysql/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\mysql\test\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

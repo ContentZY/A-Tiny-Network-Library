@@ -1,0 +1,198 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-4ecbaf32bfddf920e25b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "example",
+					"jsonFile" : "directory-example-Debug-b6fca4a6d0a37c6ae6b9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "example",
+					"targetIndexes" : 
+					[
+						4,
+						5
+					]
+				},
+				{
+					"build" : "src/http",
+					"jsonFile" : "directory-src.http-Debug-f3faea2fcb1a80f8f9ff.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/http",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "src/logger/test",
+					"jsonFile" : "directory-src.logger.test-Debug-eba91bc8939ca6b47dea.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/logger/test",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "src/memory/test",
+					"jsonFile" : "directory-src.memory.test-Debug-a966994a1a2fb934ec69.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/memory/test",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "src/mysql/test",
+					"jsonFile" : "directory-src.mysql.test-Debug-96e480bebfb489242f36.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/mysql/test",
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"name" : "tiny_network",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 3,
+					"id" : "AsyncLoggingTest::@11f0063f026794e01d96",
+					"jsonFile" : "target-AsyncLoggingTest-Debug-8c735e7f38288f0bee69.json",
+					"name" : "AsyncLoggingTest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "HttpServer::@8197c89eb9db1dcb42c8",
+					"jsonFile" : "target-HttpServer-Debug-acdc531e97d34e2ebef9.json",
+					"name" : "HttpServer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "MemoryPoolTest::@4e71b7e004bac00cc1ab",
+					"jsonFile" : "target-MemoryPoolTest-Debug-a5bfb43fb20c19bce494.json",
+					"name" : "MemoryPoolTest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "MysqlPoolTest::@8b4b2c4c1d1c391cea17",
+					"jsonFile" : "target-MysqlPoolTest-Debug-7e9eed0409c367df35e8.json",
+					"name" : "MysqlPoolTest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "echoServer::@70983d692f648185febe",
+					"jsonFile" : "target-echoServer-Debug-5cc5dcb12590804c6862.json",
+					"name" : "echoServer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "echoServerAsync::@70983d692f648185febe",
+					"jsonFile" : "target-echoServerAsync-Debug-073382417d9949cd24cc.json",
+					"name" : "echoServerAsync",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tiny_network::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tiny_network-Debug-638b76d46633320a1ee4.json",
+					"name" : "tiny_network",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/lzy/A-Tiny-Net/cmake-build-debug-",
+		"source" : "/home/lzy/A-Tiny-Net"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

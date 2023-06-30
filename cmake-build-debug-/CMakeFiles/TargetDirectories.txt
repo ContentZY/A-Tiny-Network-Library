@@ -1,0 +1,3 @@
+/home/lzy/A-Tiny-Net/cmake-build-debug-/CMakeFiles/Myweb.dir
+/home/lzy/A-Tiny-Net/cmake-build-debug-/CMakeFiles/edit_cache.dir
+/home/lzy/A-Tiny-Net/cmake-build-debug-/CMakeFiles/rebuild_cache.dir
